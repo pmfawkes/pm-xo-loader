@@ -1,0 +1,9 @@
+test/
+
+.idea
+.npmignore
+
+chromedriver.log
+
+*.iml
+*.yml
