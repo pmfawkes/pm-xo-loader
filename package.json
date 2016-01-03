@@ -1,6 +1,6 @@
 {
   "name": "pm-xo-loader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Validate files with XO",
   "author": {
     "name": "Dmitry Semigradsky",
@@ -54,14 +54,14 @@
     "simple"
   ],
   "peerDependencies": {
-    "xo": "^0.11.0"
+    "xo": "^0.12.1"
   },
   "dependencies": {
     "loader-utils": "^0.2.11",
     "object-assign": "^4.0.1"
   },
   "devDependencies": {
-    "xo": "^0.11.0",
+    "xo": "^0.12.1",
     "tape": "^4.2.0",
     "webpack": "^1.12.2"
   }
