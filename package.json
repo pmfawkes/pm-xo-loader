@@ -1,10 +1,9 @@
 {
   "name": "pm-xo-loader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Validate files with XO",
   "author": {
-    "name": "Dmitry Semigradsky",
-    "email": "semigradskyd@gmail.com"
+    "name": "PMFawkes"
   },
   "license": "MIT",
   "scripts": {
@@ -13,11 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Semigradsky/xo-loader.git"
+    "url": "https://github.com/pmfawkes/pm-xo-loader.git"
   },
-  "homepage": "https://github.com/Semigradsky/xo-loader",
+  "homepage": "https://github.com/pmfawkes/pm-xo-loader",
   "bugs": {
-    "url": "https://github.com/Semigradsky/xo-loader/issues"
+    "url": "https://github.com/pmfawkes/pm-xo-loader/issues"
   },
   "files": [
     "CHANGELOG.md",
@@ -25,44 +24,16 @@
     "README.md",
     "index.js"
   ],
-  "keywords": [
-    "gruntplugin",
-    "xo",
-    "xoxo",
-    "hugs",
-    "kisses",
-    "happy",
-    "happiness",
-    "code",
-    "quality",
-    "style",
-    "lint",
-    "linter",
-    "jscs",
-    "jshint",
-    "jslint",
-    "eslint",
-    "validate",
-    "code style",
-    "standard",
-    "strict",
-    "check",
-    "checker",
-    "verify",
-    "enforce",
-    "hint",
-    "simple"
-  ],
   "peerDependencies": {
-    "xo": "^0.12.1"
+    "xo": "^0.14.0"
   },
   "dependencies": {
     "loader-utils": "^0.2.11",
     "object-assign": "^4.0.1"
   },
   "devDependencies": {
-    "xo": "^0.12.1",
+    "xo": "^0.14.0",
     "tape": "^4.2.0",
-    "webpack": "^1.12.2"
+    "webpack": "^1.12.15"
   }
 }
